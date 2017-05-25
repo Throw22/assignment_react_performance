@@ -1,0 +1,44 @@
+{
+  "name": "project_fideligard_spa",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "https://sleepy-cliffs-46910.herokuapp.com/",
+  "dependencies": {
+    "@mars/heroku-js-runtime-env": "^3.0.0",
+    "bootstrap": "^4.0.0-alpha.6",
+    "currency-formatter": "^1.2.1",
+    "form-serialize": "^0.7.1",
+    "moment": "^2.18.1",
+    "prop-types": "^15.5.10",
+    "qs": "^6.4.0",
+    "react": "^15.5.4",
+    "react-addons-css-transition-group": "^15.5.2",
+    "react-addons-transition-group": "^15.5.2",
+    "react-dom": "^15.5.4",
+    "react-redux": "^5.0.5",
+    "react-router-dom": "^4.1.1",
+    "react-spinner": "^0.2.7",
+    "react-transition-group": "^1.1.3",
+    "reactstrap": "^4.6.2",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "deep-freeze": "0.0.1",
+    "jasmine-es6": "^0.4.0",
+    "nodemon": "^1.11.0",
+    "react-addons-perf": "^15.4.2",
+    "react-scripts": "0.9.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "jasmine": "npm run nodemon --exec ./node_modules/jasmine-es6/bin/jasmine.js",
+    "nodemon": "node ./node_modules/nodemon/bin/nodemon.js"
+  },
+  "engines": {
+    "node": "7.8.0"
+  }
+}

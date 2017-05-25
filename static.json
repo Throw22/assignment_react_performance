@@ -1,0 +1,13 @@
+{
+    "root": "build/",
+    "proxies": {
+        "/api/": {
+            "origin": "https://sleepy-cliffs-46910.herokuapp.com/api"
+        }
+    },
+    "routes": {
+        "/static/**": "/static/",
+        "/**": "index.html"
+    }
+    
+}
